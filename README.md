@@ -17,31 +17,34 @@
 
 *N* is array's size.
 
-$$ \lfloor {N \over 2^k} \rfloor = \lfloor {N \over 2}\rfloor , \lfloor {N \over 4}\rfloor,\lfloor {N \over 8}\rfloor...$$
-
-#### Tokuda's A108870
-
-$$ \lceil(\frac{1}{5}(9\cdot(\frac{9}{4})^k - 4))\rceil = 1, 3, 7, 15, 31, 63...$$
+<div align="center"><img src="https://render.githubusercontent.com/render/math?math=\lfloor {N \over 2^k} \rfloor = \lfloor {N \over 2}\rfloor , \lfloor {N \over 4}\rfloor,\lfloor {N \over 8}\rfloor..."></div>
 
 #### Sedgewick‘s A003462
 
-$$\frac{3^k - 1}{2} = 1, 4, 13, 40, 121, 364...$$
+<div align="center"><img src="https://render.githubusercontent.com/render/math?math=\frac{3^k - 1}{2} = 1, 4, 13, 40, 121, 364..."></div>
 
 
 #### Sedgewick’s A036562
 
-$$ 4^{k+1} + 3\cdot(2^k) + 1 = 1, 8, 23, 77, 281, 1073...$$
+
+<div align="center"><img src="https://render.githubusercontent.com/render/math?math=4^{k+1} + 3\cdot(2^k) + 1 = 1, 8, 23, 77, 281, 1073..."></div>
 
 #### Sedgewick's A033622
 
-$$ \begin{cases}
+<!-- $$ \begin{cases}
    9\cdot(2^k - 2^{k/2}) + 1 &\text{k even,}  \\
    8\cdot(2^k) - 6\cdot(2^{(k+1)/2}) + 1 &\text{k odd}
-\end{cases} = 1, 5, 19, 41, 109...$$
+\end{cases} = 1, 5, 19, 41, 109...$$ -->
+
+<div align="center"><img src="https://render.githubusercontent.com/render/math?math=%20%20%209%5Ccdot(2%5Ek%20-%202%5E%7Bk%2F2%7D)%20%2B%201%20%26%5Ctext%7Bk%20even%2C%7D%20%20%5C%5C%0A%20%20%208%5Ccdot(2%5Ek)%20-%206%5Ccdot(2%5E%7B(k%2B1)%2F2%7D)%20%2B%201%20%26%5Ctext%7Bk%20odd%7D"></div>
+
+#### Tokuda's A108870
+
+<div align="center"><img src="https://render.githubusercontent.com/render/math?math=\lceil(\frac{1}{5}(9\cdot(\frac{9}{4})^k - 4))\rceil = 1, 3, 7, 15, 31, 63..."></div>
 
 #### Ciura’s A102549
 
-$$ 1, 4, 10, 23, 57, 132, 301, 701, 1750 ... $$
+<div align="center"><img src="https://render.githubusercontent.com/render/math?math=1, 4, 10, 23, 57, 132, 301, 701, 1750 ..."></div>
 
 ### Result
 
